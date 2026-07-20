@@ -169,8 +169,6 @@ streamlit run src/app.py
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 
-## Notas de seguridad
-
 ## Notas de seguridad y privacidad
 
 * **Protección de credenciales:** Nunca versionar ni subir el archivo de configuración `.env` a control de versiones (se encuentra debidamente excluido en el `.gitignore`).
