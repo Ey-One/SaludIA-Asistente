@@ -120,7 +120,7 @@ def get_llm():
             st.stop()
         
         return ChatGoogleGenerativeAI(
-            model="gemini-1.5-flash", 
+            model="gemini-3.5-flash", 
             temperature=TEMPERATURE, 
             google_api_key=api_key, 
             max_output_tokens=1024
