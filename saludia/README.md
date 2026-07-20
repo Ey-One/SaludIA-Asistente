@@ -171,7 +171,9 @@ streamlit run src/app.py
 
 ## Notas de seguridad
 
-- Nunca versionar el archivo `.env` (agregarlo a `.gitignore`).
-- Los embeddings se calculan 100% localmente (HuggingFace), sin enviar el contenido de los documentos a terceros; solo las preguntas del usuario y los fragmentos recuperados se envían al LLM (Google Gemini) para generar la respuesta.
-- El asistente **nunca** da diagnósticos médicos, indica tratamientos ni interpreta síntomas; ante una posible urgencia, deriva de inmediato a la guardia/urgencias.
-- Revisar periódicamente el historial de conversación para detectar preguntas fuera del alcance administrativo y reforzar el prompt o el proceso de derivación a un profesional si es necesario.
+## Notas de seguridad y privacidad
+
+* **Protección de credenciales:** Nunca versionar ni subir el archivo de configuración `.env` a control de versiones (se encuentra debidamente excluido en el `.gitignore`).
+* **Privacidad de datos:** Los embeddings se calculan de forma 100% local mediante Sentence Transformers (HuggingFace), sin exponer el contenido íntegro de los documentos a terceros. Únicamente la consulta del usuario y los fragmentos estrictamente necesarios se envían al LLM (Google Gemini) para la generación de la respuesta.
+* **Limitación médica:** El asistente **nunca** emite diagnósticos médicos, prescribe tratamientos ni interpreta síntomas. Ante cualquier posible urgencia, el sistema deriva de inmediato a la guardia o servicios de emergencia.
+* **Mejora continua:** Se recomienda auditar periódicamente las consultas del asistente para detectar requerimientos fuera del alcance administrativo y refinar las reglas del prompt del sistema o los procesos de derivación.
