@@ -153,6 +153,9 @@ python src/processor.py
 streamlit run src/app.py
 ```
 
+
+## 🚀 Despliegue (Deploy)
+Puedes probar la aplicación en línea y acceder a su versión en producción directamente desde el siguiente enlace: https://saludia-asistente-998xdcftbyuucb39ksrmis.streamlit.app/
 ---
 
 ## Navegación de la interfaz
