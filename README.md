@@ -131,7 +131,7 @@ Crear un archivo `.env` en la raíz del proyecto (basado en `.env.example`):
 
 ```env
 LLM_PROVIDER=google
-MODEL_NAME=gemini-1.5-flash
+MODEL_NAME=gemini-3.5-flash
 GOOGLE_API_KEY=TU_API_KEY
 ```
 
