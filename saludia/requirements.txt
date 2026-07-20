@@ -1,0 +1,32 @@
+# --- Framework de UI ---
+streamlit>=1.38.0
+
+# --- LangChain (núcleo + integraciones) ---
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+
+# --- Embeddings y vectorstore (paquetes dedicados, reemplazan a los de langchain_community) ---
+langchain-huggingface>=0.1.0
+langchain-chroma>=0.1.4
+
+# --- Integraciones LLM ---
+langchain-anthropic>=0.2.0
+langchain-openai>=0.2.0
+langchain-google-genai>=2.0.0
+
+# --- Base vectorial local ---
+chromadb>=0.5.5
+
+# --- Embeddings locales gratuitos ---
+sentence-transformers>=3.0.1
+huggingface-hub>=0.24.6
+
+# --- Carga y fragmentación de documentos ---
+pypdf>=4.3.1
+unstructured>=0.15.7
+
+# --- Utilidades ---
+python-dotenv>=1.0.1
+tiktoken>=0.7.0
